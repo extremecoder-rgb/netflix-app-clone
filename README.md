@@ -19,9 +19,23 @@ A Flutter application that mimics the core UI and features of Netflix, allowing 
   - List of upcoming and trending movies/series with images, overviews, and release dates.
 - **Movie Details**: (Accessible from search and lists) View detailed information and recommendations for each movie.
 
-## Screenshots
+## Tech Stack
 
-_Add screenshots of the app here if available._
+- **Framework:** [Flutter](https://flutter.dev/) (cross-platform mobile, web, and desktop)
+- **Language:** [Dart](https://dart.dev/)
+- **Backend API:** [TMDB API](https://www.themoviedb.org/documentation/api) (for movie and TV data)
+- **State Management:** setState (built-in Flutter state management)
+- **UI Libraries & Packages:**
+  - [cupertino_icons](https://pub.dev/packages/cupertino_icons) (iOS-style icons)
+  - [google_fonts](https://pub.dev/packages/google_fonts) (custom fonts)
+  - [lottie](https://pub.dev/packages/lottie) (Lottie animations)
+  - [http](https://pub.dev/packages/http) (network requests)
+  - [cached_network_image](https://pub.dev/packages/cached_network_image) (image caching)
+  - [carousel_slider](https://pub.dev/packages/carousel_slider) (carousel widgets)
+  - [win32](https://pub.dev/packages/win32) (Windows desktop support)
+- **Testing & Linting:**
+  - [flutter_test](https://pub.dev/packages/flutter_test)
+  - [flutter_lints](https://pub.dev/packages/flutter_lints)
 
 ## Getting Started
 
